@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💍 Wedding Planner
 
-# Run and deploy your AI Studio app
+Planning a wedding can feel overwhelming, so we built a simple app that turns chaos into clarity.  
+This project helps couples, families, and planners organize everything in one place — from guest lists to budgets, vendors, and reminders.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/fd42215d-e4ea-4d01-967d-4f4417e30e6f
+## ✨ Features
+- Manage **guest lists** with RSVP tracking  
+- Keep an eye on **budgets and expenses**  
+- Connect with **venues, caterers, decorators, and photographers**  
+- Create **mood boards** for inspiration  
+- Smart **reminders** so no detail is missed  
+- Simple, intuitive **dashboard** for hosts and guests  
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (React optional)  
+- **Backend:** Node.js / Express *(to be deployed soon)*  
+- **Database:** MongoDB / MySQL *(to be integrated with backend)*  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/OSiddharthO/wedding-planner.git
