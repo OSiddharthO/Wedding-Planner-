@@ -1,0 +1,6 @@
+{
+  "name": "Wedding Planner",
+  "description": "A comprehensive project showcase and interactive portal for the Wedding Event Planner Website, outlining system architecture, methodology, and key MERN-stack features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

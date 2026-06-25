@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Light Mode Overrides */
+#wedding-portal.light-mode {
+  background-color: #faf9f6 !important; /* Soft warm ivory off-white */
+  color: #1c1917 !important; /* Rich warm charcoal text */
+}
+
+#wedding-portal.light-mode header {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border-color: #e7e5e4 !important;
+  backdrop-filter: blur(12px);
+}
+
+#wedding-portal.light-mode header span.text-slate-100 {
+  color: #1c1917 !important;
+}
+
+#wedding-portal.light-mode nav {
+  background-color: #f5f5f4 !important;
+  border-color: #e7e5e4 !important;
+}
+
+#wedding-portal.light-mode nav button {
+  color: #57534e !important;
+}
+
+#wedding-portal.light-mode nav button:hover {
+  color: #1c1917 !important;
+}
+
+/* Light Mode Card Overrides */
+#wedding-portal.light-mode .bg-slate-950,
+#wedding-portal.light-mode .bg-slate-950\/50,
+#wedding-portal.light-mode .bg-slate-950\/60,
+#wedding-portal.light-mode .bg-slate-950\/40 {
+  background-color: #ffffff !important;
+  border-color: #e7e5e4 !important;
+  color: #1c1917 !important;
+  box-shadow: 0 4px 20px -2px rgba(28, 25, 23, 0.04);
+}
+
+#wedding-portal.light-mode .bg-slate-900\/20,
+#wedding-portal.light-mode .bg-slate-900\/40,
+#wedding-portal.light-mode .bg-slate-900\/60,
+#wedding-portal.light-mode .bg-slate-900 {
+  background-color: #f5f5f4 !important;
+  border-color: #e7e5e4 !important;
+}
+
+#wedding-portal.light-mode #theme-toggle {
+  background-color: #f5f5f4 !important;
+  border-color: #e7e5e4 !important;
+}
+
+#wedding-portal.light-mode #theme-toggle:hover {
+  background-color: #e7e5e4 !important;
+}
+
+/* Text overrides */
+#wedding-portal.light-mode .text-slate-100,
+#wedding-portal.light-mode .text-slate-200,
+#wedding-portal.light-mode .text-slate-300,
+#wedding-portal.light-mode h1,
+#wedding-portal.light-mode h3 {
+  color: #1c1917 !important;
+}
+
+#wedding-portal.light-mode .text-slate-400 {
+  color: #57534e !important;
+}
+
+#wedding-portal.light-mode .text-slate-500 {
+  color: #78716c !important;
+}
+
+#wedding-portal.light-mode .border-slate-800,
+#wedding-portal.light-mode .border-slate-900,
+#wedding-portal.light-mode .border-slate-850 {
+  border-color: #e7e5e4 !important;
+}
+
+/* Form inputs & interactive widgets */
+#wedding-portal.light-mode input,
+#wedding-portal.light-mode select {
+  background-color: #ffffff !important;
+  border-color: #d6d3d1 !important;
+  color: #1c1917 !important;
+}
+
+#wedding-portal.light-mode input::placeholder {
+  color: #a8a29e !important;
+}
+
+#wedding-portal.light-mode input:focus,
+#wedding-portal.light-mode select:focus {
+  border-color: #d97706 !important; /* amber-600 */
+}
+
+/* Seating manager empty slots styling */
+#wedding-portal.light-mode .border-dashed {
+  border-color: #d6d3d1 !important;
+  color: #a8a29e !important;
+  background-color: #faf9f6 !important;
+}
+
+/* Mobile responsive menu overrides */
+#wedding-portal.light-mode .md\:hidden.bg-slate-900 {
+  background-color: #ffffff !important;
+  border-color: #e7e5e4 !important;
+}
+
+/* Table light mode styling */
+#wedding-portal.light-mode table {
+  color: #1c1917 !important;
+}
+
+#wedding-portal.light-mode th {
+  background-color: #f5f5f4 !important;
+  color: #57534e !important;
+  border-bottom: 2px solid #e7e5e4 !important;
+}
+
+#wedding-portal.light-mode td {
+  border-color: #e7e5e4 !important;
+  color: #1c1917 !important;
+}
+
+#wedding-portal.light-mode tr:hover {
+  background-color: #faf9f6 !important;
+}
+
+/* Terminal Log Console styling in Light Mode */
+#wedding-portal.light-mode .shadow-2xl.shadow-black\/60 {
+  box-shadow: 0 10px 30px -5px rgba(28, 25, 23, 0.08) !important;
+}
+
+#wedding-portal.light-mode .bg-black\/40 {
+  background-color: #f5f5f4 !important;
+  color: #44403c !important;
+}
+
+#wedding-portal.light-mode .text-slate-600 {
+  color: #a8a29e !important;
+}
+
+#wedding-portal.light-mode .text-slate-500 {
+  color: #78716c !important;
+}
